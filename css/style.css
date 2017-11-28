@@ -46,9 +46,8 @@ body, html {
   right: 0;
   top: 100px; }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
   position: relative;
-  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,8 +72,28 @@ body, html {
   min-height: 100vh; }
 
 .bgimg-4 {
-  background-image: url("https://media.giphy.com/media/rGhzNTs8fjIis/giphy.gif");
-  min-height: 100vh; }
+  background-image: url("https://image.ibb.co/eorGDR/Screen_Shot_2017_11_28_at_13_37_02.png");
+  min-height: 100vh;
+  background-size: contain;
+  border: solid black 2px; }
+
+.bgimg-5 {
+  background-image: url("https://image.ibb.co/e7rmxm/Screen_Shot_2017_11_28_at_14_33_50.png");
+  min-height: 100vh;
+  background-size: contain;
+  border: solid black 2px; }
+
+.bgimg-6 {
+  background-image: url("https://image.ibb.co/jL8zHm/Screen_Shot_2017_11_28_at_14_38_29.png");
+  min-height: 100vh;
+  background-size: contain;
+  border: solid black 2px; }
+
+.bgimg-7 {
+  background-image: url("https://image.ibb.co/dELtA6/Screen_Shot_2017_11_28_at_14_42_46.png");
+  min-height: 100vh;
+  background-size: contain;
+  border: solid black 2px; }
 
 .caption {
   position: absolute;
@@ -144,7 +163,6 @@ fill. Multiple svg-wrapper classes can be put side by side.
 #shape {
   stroke-width: 6px;
   fill: transparent;
-  stroke: #009FFD;
   stroke-dasharray: 85 400;
   stroke-dashoffset: -250;
   transition: 1s all ease; }
