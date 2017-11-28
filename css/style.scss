@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Cabin', sans-serif;
+  background-color: #DBF7F0;
 }
 nav {
   width: 100%;
@@ -65,10 +66,13 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("https://image.ibb.co/fmbF3R/bradley_cv.png");
+  // background-image: url("https://image.ibb.co/jqAOcm/cv_final_png.png");
+
+    background-image: url("https://image.ibb.co/nk28A6/Screen_Shot_2017_11_28_at_01_17_19.png");
+
   background-size: contain;
   min-height: 100vh;
-  filter: grayscale(100%);
+  // filter: grayscale(100%);
 
 
 }
