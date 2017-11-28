@@ -1,14 +1,16 @@
-body {
-  font-family: 'Cabin', sans-serif;
-  background-color: #DBF7F0; }
-
 nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px;
-  text-align: center; }
+  padding-bottom: 7px;
+  padding-top: 15px;
+  text-align: center;
+  background-color: #DBF7F0; }
+
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: #DBF7F0; }
 
 #page-wrap {
   max-width: 500px;
@@ -23,7 +25,8 @@ li {
   font-family: 'Cabin', sans-serif; }
 
 h1, h2 {
-  line-height: 1.2; }
+  line-height: 1.2;
+  text-align: center; }
 
 ul, h1 {
   margin: 0 0 1rem 0; }
@@ -52,20 +55,18 @@ body, html {
   background-size: cover; }
 
 .bgimg-1 {
-  background-image: url("https://image.ibb.co/nk28A6/Screen_Shot_2017_11_28_at_01_17_19.png");
+  background-image: url("https://image.ibb.co/hNj8cm/IMG_1782.jpg");
   background-size: contain;
-  min-height: 100vh; }
+  min-height: 100vh;
+  filter: grayscale(100%); }
 
 .bgimg-1:hover {
   filter: none; }
 
 .bgimg-2 {
-  background-image: url("https://image.ibb.co/kcukHm/rawr_copy.jpg");
-  filter: grayscale(100%);
-  min-height: 100vh; }
-
-.bgimg-2:hover {
-  filter: none; }
+  background-image: url("https://image.ibb.co/nk28A6/Screen_Shot_2017_11_28_at_01_17_19.png");
+  min-height: 100vh;
+  background-size: contain; }
 
 .bgimg-3 {
   background-image: url("https://media.giphy.com/media/Qw4X3FOknVexRVd1j5m/giphy.gif");
@@ -156,7 +157,7 @@ text would be below the div's.
   margin-top: -35px; }
   #text a {
     text-align: right;
-    color: pink;
+    color: teal;
     text-decoration: none;
     font-weight: 100;
     font-size: 1.1em; }
@@ -170,6 +171,82 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-width: 3px;
   stroke-dashoffset: 0;
   stroke: #06D6A0; }
+
+.lines {
+  text-align: center;
+  font-weight: bold; }
+
+#black {
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 15px; }
+
+#red {
+  color: white;
+  background-color: #EB3223;
+  border: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  margin: 15px; }
+
+#blue {
+  color: white;
+  background-color: #1932F4;
+  border: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  margin: 15px; }
+
+#aqua {
+  color: white;
+  background-color: #73FBEC;
+  border: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 15px; }
+
+#green {
+  color: white;
+  background-color: #85F971;
+  border: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 15px; }
+
+#purple {
+  color: white;
+  background-color: #BB6AF7;
+  border: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 15px; }
+
+#up {
+  border: 2px white solid;
+  color: white;
+  text-decoration: none;
+  padding: 5px; }
+
+#up:hover {
+  background-color: #DBF7F0;
+  color: black;
+  border: 2px #DBF7F0 solid; }
+
+#ga {
+  font-size: 20px;
+  line-height: normal;
+  text-align: center; }
+
+#quote {
+  font-size: 50px; }
 
 @media screen and (max-width: 750px) {
   .bgimg-1 {
