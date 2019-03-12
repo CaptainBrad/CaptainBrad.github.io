@@ -1,52 +1,52 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
-
-body {
-  // background:
-  //   linear-gradient(
-  //     rgba(0, 0, 0, 0.5),
-  //     rgba(0, 0, 0, 0.5)
-  //   ),
-  //   url(https://image.ibb.co/mLGsWo/brad1.jpg) no-repeat;
-  // background-size: cover;
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color: #D3D3D3;
-}
-
-.responsive-image{
-    width: 100%;
-    background-size: 100% 100%;
-}
-
-/* Retina display */
-@media screen and (min-width: 1024px){
-    .responsive-image{
-        background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
-    }
-}
-/* Desktop */
-@media screen and (min-width: 980px) and (max-width: 1024px){
-    .responsive-image{
-        background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
-    }
-}
-/* Tablet */
-@media screen and (min-width: 760px) and (max-width: 980px){
-    .responsive-image{
-        background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
-    }
-}
-/* Mobile HD */
-@media screen and (min-width: 350px) and (max-width: 760px){
-    .responsive-image{
-        background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
-    }
-}
-/* Mobile LD */
-@media screen and (max-width: 350px){
-    .responsive-image{
-        background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
-    }
-}
+// @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+//
+// body {
+//   // background:
+//   //   linear-gradient(
+//   //     rgba(0, 0, 0, 0.5),
+//   //     rgba(0, 0, 0, 0.5)
+//   //   ),
+//   //   url(https://image.ibb.co/mLGsWo/brad1.jpg) no-repeat;
+//   // background-size: cover;
+//   font-family: 'Source Sans Pro', sans-serif;
+//   background-color: #D3D3D3;
+// }
+//
+// .responsive-image{
+//     width: 100%;
+//     background-size: 100% 100%;
+// }
+//
+// /* Retina display */
+// @media screen and (min-width: 1024px){
+//     .responsive-image{
+//         background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
+//     }
+// }
+// /* Desktop */
+// @media screen and (min-width: 980px) and (max-width: 1024px){
+//     .responsive-image{
+//         background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
+//     }
+// }
+// /* Tablet */
+// @media screen and (min-width: 760px) and (max-width: 980px){
+//     .responsive-image{
+//         background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
+//     }
+// }
+// /* Mobile HD */
+// @media screen and (min-width: 350px) and (max-width: 760px){
+//     .responsive-image{
+//         background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
+//     }
+// }
+// /* Mobile LD */
+// @media screen and (max-width: 350px){
+//     .responsive-image{
+//         background-image: url('https://image.ibb.co/mLGsWo/brad1.jpg');
+//     }
+// }
 
 
 
